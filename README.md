@@ -21,17 +21,18 @@ Go to the root directory of the project and install all dependencies with :
 Setup your config.yml file with the configuration below:
 ```
 clab_restoflash:
-	login: %your_login%
-	password: %your_password%
-	imei: %your_imei%
-	#setup end point ex: https://gestion.restoflash.fr/
-	end_point: %your_end_point%
-	#setup end point demo ex: https://demo.restoflash.fr/
-	end_point_demo: %your_end_point_demo%
-	#setup end point userex: https://mon.restoflash.fr/
-	end_point_user: %your_end_point_user%
-	#setup end point user demo ex: https://mondemo.restoflash.fr/
-	end_point_user_demo: %your_end_point_user_demo%
+	parameters:
+		login: %your_login%
+		password: %your_password%
+		imei: %your_imei%
+		#setup end point ex: https://gestion.restoflash.fr/
+		end_point: %your_end_point%
+		#setup end point demo ex: https://demo.restoflash.fr/
+		end_point_demo: %your_end_point_demo%
+		#setup end point userex: https://mon.restoflash.fr/
+		end_point_user: %your_end_point_user%
+		#setup end point user demo ex: https://mondemo.restoflash.fr/
+		end_point_user_demo: %your_end_point_user_demo%
 ```
 4.
 Go back to the root folder of the project and populate the database :
