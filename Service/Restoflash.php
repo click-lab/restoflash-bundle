@@ -12,7 +12,7 @@ abstract class Restoflash
     protected $imei = null;
     protected $login = null;
     protected $password = null;
-    protected $endPoint = null
+    protected $endPoint = null;
     protected $endPointDemo = null;
     protected $endPointUser = null;
     protected $endPointUserDemo = null;
